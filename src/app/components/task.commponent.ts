@@ -22,7 +22,7 @@ import {CommonModule} from "@angular/common";
       <label
         [attr.aria-label]="task?.title + ''"
         for="title-{{ task?.id }}"
-        class="title-wrapper"
+        class="title"
       >
         <input
           type="text"
